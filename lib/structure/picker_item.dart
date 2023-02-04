@@ -11,6 +11,5 @@ class PickerItem with _$PickerItem {
 
   const factory PickerItem.photo({
     required AssetEntity asset,
-    String? editedFileName,
   }) = PickPhoto;
 }
